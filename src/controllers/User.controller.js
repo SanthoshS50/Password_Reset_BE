@@ -1,5 +1,3 @@
-/** @format */
-
 import userModel from "../models/User.models.js";
 import auth from "../common/auth.js";
 import nodemailer from "nodemailer";
@@ -119,7 +117,7 @@ const forgotPassword = async (req, res) => {
         <p>Please click the following link to reset your password:</p>
         <a href="https://password-reset-flows.netlify.app/reset-password">Reset Password</a>
         <p>If you did not make this request, please ignore this email.</p>
-        <p>Thank you,</p>
+        <p>Thank you</p>
         <p>From Validation</p>
       `,
     };

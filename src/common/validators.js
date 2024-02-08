@@ -1,5 +1,3 @@
-/** @format */
-
 import { validationResult, body } from "express-validator";
 
 const validate = (route) => {
